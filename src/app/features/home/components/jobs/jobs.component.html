@@ -1,0 +1,42 @@
+<section class="mt-5">
+  <div class="container">
+    <div class="row g-3">
+      @for(job of jobs; track job){
+        <div class=" col-md-6 col-sm-12">
+          <div class="job-list">
+            <div class="job-card">
+                <div class="job-card-header">
+                    <h2 class="job-title">{{job?.title}}</h2>
+                    <!-- <img class="company-logo" src="https://via.placeholder.com/50" alt="Company Logo"> -->
+                    <p class="company-name">Mashaarea</p>
+                    <div class="details d-flex">
+                      <p class="location"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</p>
+                      <p class="location mx-2"><i class="fas fa-briefcase"></i> {{job?.type}}</p>
+                      <p class="location"><i class="fas fa-money-bill"></i> {{job?.salary_from }} - {{job?.salary_to }} $</p>
+                    </div>
+                </div>
+                <p class="job-description">
+                    We are seeking a talented and experienced Media Buyer to join our team in Cairo, Egypt. As a Media Buyer, you will be responsible...
+                </p>
+                <div class="job-card-footer">
+                    <p class="time-posted">23 minutes ago</p>
+                    <div>
+                      <button class="apply-button">Apply</button>  <button class="mx-2 view-button" (click)="openViewDialog(job)">View</button>
+                    </div>
+
+                    <!-- <button class="save-button"><i class="far fa-heart"></i></button> -->
+                </div>
+            </div>
+
+            <!-- Add more job-card divs as needed -->
+        </div>
+        </div>
+      }
+
+
+
+
+    </div>
+  </div>
+
+</section>

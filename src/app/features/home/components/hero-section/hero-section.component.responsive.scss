@@ -1,0 +1,24 @@
+@media (max-width: 575.98px) {
+    .hero-section {
+        background-image: linear-gradient(#00000070, #0000006e) ,url('../../../../../assets/background/background-jobs-mobile.png');
+        background-position: left;
+        .hero-content {
+
+            .content {
+                max-width: 540px;
+                img.logo {
+                    max-width: 80%;
+                    margin-bottom: 26px;
+                }
+                p {
+                    font-size: 0.875rem;
+                    margin-bottom: 24px;
+                }
+                h1 {
+                    font-size: 1.5rem;
+                    line-height: 2.063rem;
+                }
+            }
+        }
+    }
+}

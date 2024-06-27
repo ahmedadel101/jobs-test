@@ -1,0 +1,76 @@
+@import '../../../../colors.scss';
+
+
+.job-details{
+  &-header {
+
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+    .job-title {
+      color: $primary;
+      font-size: 1.25em;
+      margin: 0;
+      margin-right: 15px;
+      flex: 1;
+    }
+
+    .company-logo {
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
+      margin-right: 15px;
+    }
+
+    .company-name {
+      font-size: 1em;
+      color: $secondary;
+      margin: 0;
+    }
+
+    .location {
+      font-size: 0.9em;
+      color: $secondary;
+      margin: 0;
+    }
+  }
+
+
+}
+::ng-deep .mat-mdc-dialog-content{
+  h3{
+    font-size: 1.4rem !important;
+    color: $primary;
+  }
+}
+.apply-button {
+  background: $primary;
+  border: none;
+  border-radius:0px;
+  color: $white;
+  cursor: pointer;
+  width: 50%;
+  font-size: 0.9em;
+  padding: 8px 15px;
+  transition:all 0.3s ease;
+
+  &:hover {
+    background: $third;
+    color: $primary;
+  }
+}
+.view-button{
+  background: $black;
+  border: none;
+  border-radius:0px;
+  width: 50%;
+  color: $white;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 8px 15px;
+  transition:all 0.3s ease;
+
+  &:hover {
+    background: $second;
+  }
+}

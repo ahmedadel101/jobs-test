@@ -1,0 +1,86 @@
+
+$black: #000000;
+$white: #FFFFFF;
+$primary: #05445E;
+$secondary:#666;
+$second:#189AB4;
+$third:#75E6DA;
+$background:#d4f1f447;
+$danger: #f00;
+$accent: #F5E03D;
+
+// You can visit (Material Design Palette Generator http://mcg.mbitson.com/) to generate Material Design Palettes.
+$primary-palette: (
+  50: '#FFFFFF',
+  100: '#FFFFFF',
+  200: '#FFFFFF',
+  300: '#FFFFFF',
+  400: '#FFFFFF',
+  500: $primary,
+  600: '#FFFFFF',
+  700: '#FFFFFF',
+  800: '#FFFFFF',
+  900: '#FFFFFF',
+  contrast: (
+    50: $black,
+    100: $black,
+    200: $black,
+    300: $black,
+    400: $white,
+    500: $white,
+    600: $white,
+    700: $white,
+    800: $white,
+    900: $white
+  )
+);
+
+$accent-palette: (
+  50: '#FEFBE8',
+  100: '#FCF6C5',
+  200: '#FAF09E',
+  300: '#F8E977',
+  400: '#F7E55A',
+  500: $accent,
+  600: '#F4DC37',
+  700: '#F2D82F',
+  800: '#F0D327',
+  900: '#EECB1A',
+  contrast: (
+    50: $black,
+    100: $black,
+    200: $black,
+    300: $white,
+    400: $white,
+    500: $white,
+    600: $white,
+    700: $white,
+    800: $white,
+    900: $white
+  )
+);
+
+$warn-palette: (
+  50: #FFE0E0,
+  100: #FFB3B3,
+  200: #FF8080,
+  300: #FF4D4D,
+  400: #FF2626,
+  500: $danger,
+  600: #FF0000,
+  700: #FF0000,
+  800: #FF0000,
+  900: #FF0000,
+  contrast: (
+    50: $black,
+    100: $black,
+    200: $black,
+    300: $black,
+    400: $black,
+    500: $white,
+    600: $white,
+    700: $white,
+    800: $white,
+    900: $white
+  )
+);
